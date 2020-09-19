@@ -28,7 +28,10 @@ app.post('/usuario', function (req, res) {
     }
 });
 app.put('/usuario/:id', function (req, res) {
-  res.json('Put Usuario')
+    let id = req.params.id;
+  res.json({
+      id
+  })
 });
 app.delete('/usuario', function (req, res) {
   res.json('Delete Usuario')
