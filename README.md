@@ -1,4 +1,4 @@
-### Aplicación para apis rest server
+### Aplicación para api rest server
 
 No olvides ejecutar el siguiente comando:
 
